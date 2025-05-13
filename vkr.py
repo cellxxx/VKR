@@ -68,6 +68,6 @@ def train_and_save(data_dir, out_name):
     print(f'Model saved as {out_name}.pth\n')
 
 # Переобучение биологической модели
-train_and_save(data_dir='dataset', out_name='resnet18_biology')
+train_and_save(data_dir='dataset', out_name='resnet18_biology1')
 #train_and_save(data_dir='dataset2', out_name='resnet18_people')
 #train_and_save(data_dir='dataset1', out_name='resnet18_cars')
